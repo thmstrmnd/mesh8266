@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Mesh8266/logo.png">
+<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Mesh8266/blob/master/logo.png">
 </p>
 
 ## Open Build IoT - Mesh 8266
