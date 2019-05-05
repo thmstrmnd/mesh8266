@@ -1,8 +1,12 @@
-# MESH8266
+<p align="center"> 
+<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Mesh8266/logo.png">
+</p>
 
-## HOW IT WORKS
+## Open Build IoT - Mesh 8266
 
-## DEPENDENCIES
+## How It Works
+
+## Dependencies
 1. ArduinoJson (6.10.0)
 2. ArduLibraries
 3. PainlessMesh
