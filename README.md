@@ -20,9 +20,9 @@ One of the painpoints of IoT development is its too much dependency on main grid
 6. The click Sketch -> Upload | Note: This procedure uploads the bare minimum code and checks whether there are potential errors. There are two common errors. The first one is on the PORT setting. Go back to Tools -> PORT then choose the right one. The second one is the admin permission error. For linux users, run this command in your terminal to change the permission: $ sudo chown user path. Where "user" is your machine's username and path is the location of the permission denied folder. 
 7. At this point, you can now start and upload the sample code / sketch. 
 ### Dependencies
-1. ArduinoJson (6.10.0)
-2. ArduLibraries
-3. PainlessMesh
+1. PainlessMesh
+2. ArduinoJson (6.10.0)
+3. ArduLibraries
 4. ESPAsyncTCP
 5. TaskScheduler
 ### How It Works
