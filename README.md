@@ -8,7 +8,7 @@
 ## Mission
 To be the backbone for developing a localized / independent internet or an off-grid internet. 
 ## General
-One of the painpoints of IoT development is its too much dependency on main grid internet (hence it's name) but we believe it has become the bottleneck for market adoption. ESP8266, the most affordable chip there is ($5 apiece as of this today May 2019) has that capability to be assembled into a "Mesh Network" that works like internet in a localized setting and can be hooked over the internet. 
+One of the painpoints of IoT development is its too much dependency on main grid internet (hence it's name) but we believe it has become the bottleneck for market adoption. ESP8266, the most affordable chip there is ($5 apiece as of this today May 2019) has that capability to be assembled into a "Mesh Network" that works like internet in a localized setting.
 
 ## Get Started
 ### Microcontroller Setup and Code Upload <a name="setup"></a>
