@@ -26,4 +26,8 @@ One of the painpoints of IoT development is its too much dependency on main grid
 4. ESPAsyncTCP
 5. TaskScheduler
 ### How It Works
+1. Upload the code as it is to three ESP8266 devices. From here on, we'll call them "nodes".  
+2. Fire up serial monitor and obeserve the messages coming in and you should notice that the other ESP8266 device (also called nodes) are communicating to your device. 
+3. Turn on the 3rd Node and see how the mesh network reorganizes itself. 
+
 
