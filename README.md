@@ -5,11 +5,11 @@
 ## Open Build IoT - Mesh 8266
 **An open source mesh network integration using ESP8266 based on painlessMesh library.**
 
-## Table Of Contents
-
 ## Mission
+To be the backbone for developing a localized / independent internet or an off-grid internet. 
 ## General
-## Development Principles
+One of the painpoints of IoT development is its too much dependency on main grid internet (hence it's name) but we believe it has become the bottleneck for market adoption. ESP8266, the most affordable chip there is ($5 apiece as of this today May 2019) has that capability to be assembled into a "Mesh Network" that works like internet in a localized setting and can be hooked over the internet. 
+
 ## Get Started
 ### Microcontroller Setup and Code Upload <a name="setup"></a>
 1. Download Arduino IDE: https://www.arduino.cc/en/Main/Software
