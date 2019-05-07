@@ -1,25 +1,23 @@
 #include "painlessMesh.h"
 
-#define   MESH_PREFIX     "whateverYouLike"
-#define   MESH_PASSWORD   "somethingSneaky"
+#define   MESH_PREFIX     "AnythingWorks"
+#define   MESH_PASSWORD   "NotTooShortPassword"
 #define   MESH_PORT       5555
 
 Scheduler userScheduler;
 painlessMesh  mesh;
 
-// User stub
 void sendMessage() ; 
 
 Task taskSendMessage( TASK_SECOND * 1 , TASK_FOREVER, &sendMessage );
 
 void sendMessage() {
-  String msg = "Hello from node ";
+  String msg = "Hello from Node ";
   msg += mesh.getNodeId();
   mesh.sendBroadcast( msg );
   taskSendMessage.setInterval( random( TASK_SECOND * 1, TASK_SECOND * 5 ));
 }
 
-// Needed for painless library
 void receivedCallback( uint32_t from, String &msg ) {
   Serial.printf("startHere: Received from %u msg=%s\n", from, msg.c_str());
 }
