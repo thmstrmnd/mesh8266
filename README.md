@@ -30,3 +30,5 @@ One of the painpoints of IoT development is its too much dependency on main grid
 2. Fire up serial monitor and obeserve the messages coming in and you should notice that the other ESP8266 device (also called node) is communicating to your device. 
 3. Turn on the 3rd Node and see in your serial monitor how the third node communicates immediately without any additional setup hence "auto-organizes" itself. 
 
+## LICENSE: MIT
+
