@@ -1,7 +1,3 @@
-<p align="center"> 
-<img src="https://github.com/OpenBuildProject/OpenBuild_IoT-Mesh8266/blob/master/logo.png">
-</p>
-
 ## Open Build IoT - Mesh 8266
 **An open source mesh network integration using ESP8266 based on painlessMesh library.**
 
